@@ -1,0 +1,10 @@
+/ , /home, /login ----> login page
+/admin ----> admin home page
+/admin/carbondata -----> the carbon data has been submitted to be approved (details.jsp)
+/admin/show -----> the page that shows the map and total carbon data submission 
+
+
+/user ---> user home page
+/user/carbondata -----> the input form to submite the carbon data 
+/user/carbondata/edit -----> the input form to edit the data has been submitted 
+/user/show ----> the page that shows the map and total carbon emission 

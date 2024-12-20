@@ -1,0 +1,90 @@
+/* login_page_style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: url('../images/login_page_background.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+.wrapper h2 {
+    font-size: 24px; /* Smaller font size for the subheading */
+    color: #333; /* Darker color for contrast */
+    text-align: center;
+    margin-bottom: 0; /* Remove bottom margin to bring the headings closer */
+}
+
+.wrapper h1 {
+    font-size: 36px; /* Larger font size for the main heading */
+    color: #0056b3; /* Theme color or any color you prefer */
+    text-align: center;
+    margin-top: 0.5em; /* Add some top margin to space it from the subheading */
+}
+
+body {
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    align-items: center;
+}
+
+.wrapper {
+    width: 420px; /* Fixed width for the login box */
+    margin-right: 10%; /* Right margin to push the box to the right */
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0056b3;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #003d82;
+}
+
+.register-link p,
+.register-link p a {
+    color: #0056b3;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+.remember-forgot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14.5px;
+    margin-top: 10px; /* Adjust top margin as needed */
+}
+

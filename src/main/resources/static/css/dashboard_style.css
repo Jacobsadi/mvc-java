@@ -1,0 +1,105 @@
+/* Global Styles */
+.bg-skyblue {
+  background-color: skyblue;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Add padding to the main content box */
+#box08 {
+  padding: 20px;
+  /* Adjust the padding value as needed */
+}
+
+
+/* Announce Animation */
+@keyframes announce-slide {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.announce {
+  display: inline-block;
+  padding: 10px;
+  background-color: #17a2b8;
+  animation: announce-slide 10s linear infinite;
+}
+
+/* Sidebar Styles */
+.sidebar-heading {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.sidebar-nav .nav-item {
+  padding: 10px 15px;
+}
+
+.sidebar-nav .nav-link {
+  color: #333;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-nav .nav-link:hover,
+.sidebar-nav .nav-link.active {
+  background-color: #e9f4fd;
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Footer Styles */
+/* Footer Styles */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  text-align: center;
+}
+
+.footer .small {
+  font-size: 0.6em;
+  margin-bottom: 0;
+}
+
+.footer img {
+  max-height: 36px;
+  /* Adjusted max height for logo */
+  width: auto;
+  /* Maintain aspect ratio */
+  margin-bottom: 0.5rem;
+  /* Spacing below logo */
+}
+
+.footer .text-primary {
+  color: #007bff;
+}
+
+.footer .text-primary:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer .text-center a {
+    display: block;
+    padding: 0;
+  }
+}
